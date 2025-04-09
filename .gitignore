@@ -1,0 +1,30 @@
+# Arduino / PlatformIO
+*.elf
+*.hex
+*.bin
+.build/
+.pio/
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.env
+
+# KiCAD
+*.bak
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*-bak.kicad_sch
+*-bak.kicad_pcb
+fp-info-cache
+sym-lib-table
+
+# macOS
+.DS_Store
+
+# Logs & Cache
+*.log
+emotion_log.json
